@@ -1,0 +1,42 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lolipickaxe",
+    "customModelName": "Normal",
+    "name": "Loli Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:LoliPickaxeTab"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 128000,
+    "efficiency": 128000.0,
+    "attackSpeed": 99.0,
+    "enchantability": 128000,
+    "damageVsEntity": 128000.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "glowCondition": {
+      "name": "LoliPickaxeMakeItemGlow"
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "LoliPickaxeRightClick"
+    },
+    "onRightClickedOnBlock": {
+      "name": "LoliPickaxeRightClick"
+    },
+    "onEntityHitWith": {
+      "name": "LoliPickaxeDangShiTiBeiGongJuJiZhongShi"
+    },
+    "onItemInInventoryTick": {
+      "name": "LoliPickaxeDangGongJuChuXianZaiWuPinLanShi"
+    }
+  }
+}

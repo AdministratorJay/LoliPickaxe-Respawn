@@ -1,0 +1,11 @@
+{
+  "lolipickaxe_attack": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "lolipickaxe:src_main_resources_assets_lolipickaxe_sounds_lolisuccess",
+        "stream": false
+      }
+    ]
+  }
+}

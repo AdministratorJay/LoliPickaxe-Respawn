@@ -1,0 +1,46 @@
+{
+  "mappings": {
+    "net/mcreator/lolipickaxe/mixins/LMixin": {
+      "die": "Lnet/minecraft/world/entity/LivingEntity;m_6667_(Lnet/minecraft/world/damagesource/DamageSource;)V",
+      "isAlive": "Lnet/minecraft/world/entity/LivingEntity;m_6084_()Z",
+      "getMaxHealth": "Lnet/minecraft/world/entity/LivingEntity;m_21233_()F",
+      "getHealth": "Lnet/minecraft/world/entity/LivingEntity;m_21223_()F",
+      "hurt": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+      "isDeadOrDying": "Lnet/minecraft/world/entity/LivingEntity;m_21224_()Z"
+    },
+    "net/mcreator/lolipickaxe/mixins/IMixin": {
+      "dropAll": "Lnet/minecraft/world/entity/player/Inventory;m_36071_()V",
+      "clearContent": "Lnet/minecraft/world/entity/player/Inventory;m_6211_()V",
+      "clearOrCountMatchingItems": "Lnet/minecraft/world/entity/player/Inventory;m_36022_(Ljava/util/function/Predicate;ILnet/minecraft/world/Container;)I"
+    },
+    "net/mcreator/lolipickaxe/mixins/EMixin": {
+      "discard": "Lnet/minecraft/world/entity/Entity;m_146870_()V",
+      "kill": "Lnet/minecraft/world/entity/Entity;m_6074_()V",
+      "setRemoved": "Lnet/minecraft/world/entity/Entity;m_142467_(Lnet/minecraft/world/entity/Entity$RemovalReason;)V",
+      "remove": "Lnet/minecraft/world/entity/Entity;m_142687_(Lnet/minecraft/world/entity/Entity$RemovalReason;)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "net/mcreator/lolipickaxe/mixins/LMixin": {
+        "die": "Lnet/minecraft/world/entity/LivingEntity;m_6667_(Lnet/minecraft/world/damagesource/DamageSource;)V",
+        "isAlive": "Lnet/minecraft/world/entity/LivingEntity;m_6084_()Z",
+        "getMaxHealth": "Lnet/minecraft/world/entity/LivingEntity;m_21233_()F",
+        "getHealth": "Lnet/minecraft/world/entity/LivingEntity;m_21223_()F",
+        "hurt": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+        "isDeadOrDying": "Lnet/minecraft/world/entity/LivingEntity;m_21224_()Z"
+      },
+      "net/mcreator/lolipickaxe/mixins/IMixin": {
+        "dropAll": "Lnet/minecraft/world/entity/player/Inventory;m_36071_()V",
+        "clearContent": "Lnet/minecraft/world/entity/player/Inventory;m_6211_()V",
+        "clearOrCountMatchingItems": "Lnet/minecraft/world/entity/player/Inventory;m_36022_(Ljava/util/function/Predicate;ILnet/minecraft/world/Container;)I"
+      },
+      "net/mcreator/lolipickaxe/mixins/EMixin": {
+        "discard": "Lnet/minecraft/world/entity/Entity;m_146870_()V",
+        "kill": "Lnet/minecraft/world/entity/Entity;m_6074_()V",
+        "setRemoved": "Lnet/minecraft/world/entity/Entity;m_142467_(Lnet/minecraft/world/entity/Entity$RemovalReason;)V",
+        "remove": "Lnet/minecraft/world/entity/Entity;m_142687_(Lnet/minecraft/world/entity/Entity$RemovalReason;)V"
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "_fv": 39,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "swgui",
+    "customModelName": "Normal",
+    "name": "Death",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:LoliPickaxeTab"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "死而已，没什么需要多说的。"
+    ],
+    "hasGlow": true,
+    "glowCondition": {
+      "name": "LoliPickaxeMakeItemGlow"
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "DeathWanJiaWanChengShiYongWuPinShi"
+    },
+    "onRightClickedOnBlock": {
+      "name": "DeathWanJiaWanChengShiYongWuPinShi"
+    },
+    "onItemInInventoryTick": {
+      "name": "DeathWanJiaWanChengShiYongWuPinShi"
+    },
+    "onItemInUseTick": {
+      "name": "DeathWanJiaWanChengShiYongWuPinShi"
+    },
+    "onStoppedUsing": {
+      "name": "DeathWanJiaWanChengShiYongWuPinShi"
+    },
+    "onEntitySwing": {
+      "name": "DeathWanJiaWanChengShiYongWuPinShi"
+    },
+    "onDroppedByPlayer": {
+      "name": "DeathWanJiaWanChengShiYongWuPinShi"
+    },
+    "onFinishUsingItem": {
+      "name": "DeathWanJiaWanChengShiYongWuPinShi"
+    },
+    "isFood": true,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "eat"
+  }
+}

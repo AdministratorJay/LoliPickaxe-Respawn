@@ -1,0 +1,769 @@
+{
+  "mod_elements": [
+    {
+      "name": "LoliPickaxeMakeItemGlow",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loli_pickaxe_make_item_glow",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/LoliPickaxeMakeItemGlowProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "LoliPickaxe",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "loli_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lolipickaxe/models/item/loli_pickaxe.json",
+          "src/main/java/net/mcreator/lolipickaxe/item/LoliPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LoliPickaxeTab",
+      "type": "tab",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loli_pickaxe_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DropLoliPickaxe",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "drop_loli_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/DropLoliPickaxeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BreakBlock",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "break_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/BreakBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LoliPickaxeCommand",
+      "type": "command",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loli_pickaxe_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/command/LoliPickaxeCommandCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "SetBreakDistance",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_break_distance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/SetBreakDistanceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Command"
+    },
+    {
+      "name": "LoliPickaxeDangShiTiBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loli_pickaxe_dang_shi_ti_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/LoliPickaxeDangShiTiBeiGongJuJiZhongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EntityCounter",
+      "type": "code",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "entity_counter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/EntityCounter.java"
+        ]
+      }
+    },
+    {
+      "name": "Loli",
+      "type": "code",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "loli",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/Loli.java"
+        ]
+      }
+    },
+    {
+      "name": "TickUpdateDef",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tick_update_def",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/TickUpdateDefProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetForceDrop",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_force_drop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/SetForceDropProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Command"
+    },
+    {
+      "name": "LoliPickaxeRightClick",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loli_pickaxe_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/LoliPickaxeRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LoliPickaxeDangGongJuChuXianZaiWuPinLanShi",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loli_pickaxe_dang_gong_ju_chu_xian_zai_wu_pin_lan_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/LoliPickaxeDangGongJuChuXianZaiWuPinLanShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CaiZi",
+      "type": "code",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cai_zi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/CaiZi.java"
+        ]
+      }
+    },
+    {
+      "name": "FanShang",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fan_shang",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/FanShangProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetFanShang",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_fan_shang",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/SetFanShangProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Command"
+    },
+    {
+      "name": "LoliEntity",
+      "type": "livingentity",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loli_entity",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lolipickaxe/models/item/loli_entity_spawn_egg.json",
+          "src/main/java/net/mcreator/lolipickaxe/client/renderer/LoliEntityRenderer.java",
+          "src/main/java/net/mcreator/lolipickaxe/entity/LoliEntityEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "DefenseLoli",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "defense_loli",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/DefenseLoliProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EventGUI",
+      "type": "code",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "event_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/EventGUI.java"
+        ]
+      }
+    },
+    {
+      "name": "Startattack",
+      "type": "command",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "startattack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/command/StartattackCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Startattackp",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "startattackp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/StartattackpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CaiZi2",
+      "type": "code",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cai_zi_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/CaiZi2.java"
+        ]
+      }
+    },
+    {
+      "name": "SetAttackDistance",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_attack_distance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/SetAttackDistanceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Command"
+    },
+    {
+      "name": "TickDefenseEntity",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tick_defense_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/TickDefenseEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetGod",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_god",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/SetGodProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Command"
+    },
+    {
+      "name": "TickAutoAttack",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tick_auto_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/TickAutoAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetAutoAttack",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_auto_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/SetAutoAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Command"
+    },
+    {
+      "name": "SetAutoAttackDistance",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_auto_attack_distance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/SetAutoAttackDistanceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Command"
+    },
+    {
+      "name": "DeathWanJiaWanChengShiYongWuPinShi",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_wan_jia_wan_cheng_shi_yong_wu_pin_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/DeathWanJiaWanChengShiYongWuPinShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Death",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "death",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/item/DeathItem.java",
+          "src/main/resources/assets/lolipickaxe/models/item/death.json"
+        ]
+      }
+    },
+    {
+      "name": "LoliEntityDangWanJiaYuGaiShiTiFaShengPengZhuangShi",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loli_entity_dang_wan_jia_yu_gai_shi_ti_fa_sheng_peng_zhuang_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/LoliEntityDangWanJiaYuGaiShiTiFaShengPengZhuangShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LoliEntityDangShiTiGengXinKeShi",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loli_entity_dang_shi_ti_geng_xin_ke_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolipickaxe/procedures/LoliEntityDangShiTiGengXinKeShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "BD",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
+    },
+    {
+      "name": "AD",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "100.0"
+    },
+    {
+      "name": "BT",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "FS",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "AT",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "AD2",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "4.0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "lolipickaxe_attack",
+      "files": [
+        "src_main_resources_assets_lolipickaxe_sounds_lolisuccess"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.lolipickaxe.death": "Death",
+      "item.lolipickaxe.loli_entity_spawn_egg": "Loli Spawn Egg",
+      "itemGroup.tabloli_pickaxe_tab": "LoliPickaxe",
+      "entity.lolipickaxe.loli_entity": "Loli",
+      "subtitles.lolipickaxe_attack": "",
+      "item.lolipickaxe.loli_pickaxe": "Loli Pickaxe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Command",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "lolipickaxe",
+    "modName": "LoliPickaxe",
+    "version": "1.0.0",
+    "websiteURL": "https://null.null",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "allmods"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "null",
+    "modElementsPackage": "net.mcreator.lolipickaxe",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

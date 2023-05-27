@@ -1,0 +1,7 @@
+{
+  "_fv": 39,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"get_command_parameter_entities_foreach\"><field name=\"param\">targets</field><value name=\"_placeholder\"><block type=\"entity_iterator\"></block></value><statement name=\"foreach\"><block type=\"java_code\"><field name=\"CODE\">Loli.KillEntity(entityiterator);</field><next><block type=\"entity_nbt_logic_set\"><value name=\"entity\"><block type=\"entity_iterator\"></block></value><value name=\"tagName\"><block type=\"text\"><field name=\"TEXT\">lolidead</field></block></value><value name=\"tagValue\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value></block></next></block></statement></block></next></block></xml>"
+  }
+}

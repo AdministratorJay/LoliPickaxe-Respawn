@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.mcreator.lolipickaxe.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixin.lolipickaxe.refmap.json",
+  "mixins": [
+  	"EMixin",
+  	"IMixin",
+  	"LMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
